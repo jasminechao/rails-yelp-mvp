@@ -28,6 +28,18 @@ restaurants_attributes = [
     address:      Faker::Address.street_address,
     phone_number: Faker::PhoneNumber.cell_phone,
     category:     "chinese"
+  },
+  {
+    name:         "Olive garden",
+    address:      Faker::Address.street_address,
+    phone_number: Faker::PhoneNumber.cell_phone,
+    category:     "italian"
+  },
+  {
+    name:         "Ishin",
+    address:      Faker::Address.street_address,
+    phone_number: Faker::PhoneNumber.cell_phone,
+    category:     "japanese"
   }
 ]
 Restaurant.create!(restaurants_attributes)

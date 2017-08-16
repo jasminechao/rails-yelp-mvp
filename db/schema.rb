@@ -17,7 +17,6 @@ ActiveRecord::Schema.define(version: 20170816091419) do
     t.string "address"
     t.string "phone_number"
     t.string "category"
-    t.string "string"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
